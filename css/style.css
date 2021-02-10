@@ -1,0 +1,62 @@
+
+html{
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+.get-start{
+
+}
+.info{
+    font-size: 11px;
+    text-align: center;
+}
+.my-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 138px;
+}
+.icon-s{
+
+}
+.white-mode.black-mode{
+    background-color: #1e2021;
+}
+.white-mode.black-mode .my-text{
+    color: #f0f0f1;
+}
+.white-mode{
+    background-color: #f0f0f1;
+    transition: 0.5s;
+}
+.white-mode .my-text{
+    color: #1e2021;    
+}
+.btn-mode{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #00000050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3dcc;
+    transition: 0.5s;
+    z-index: 2000;
+}
+.btn-mode:hover{
+    transform: translateY(-10px);
+}
+.btn-mode:active{
+    background-color: #4747f1;
+    box-shadow: 0 0 5px #15156f20;
+}
+.btn-mode-icon{
+    font-size: 30px;
+    color: #f0f0f1;
+}
